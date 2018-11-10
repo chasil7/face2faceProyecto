@@ -67,7 +67,6 @@ La teoría es que a medida que el discriminador mejora, también lo hace el gene
 - [OpenCV 3.0](http://opencv.org/)
 - [Dlib 19.4](http://dlib.net/)
 
-¿Cómo usarlo?
 
 ## Comenzando
 Para comenzar necesitamos crear nuestro ambiente de desarrollo, para ello necesitamos 
