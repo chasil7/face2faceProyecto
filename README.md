@@ -4,13 +4,13 @@ Objetivo: Encontrar un proyecto creado que use redes convolucionales y utilizarl
 
 El proyecto que escogi fue face2face el cual consiste en, por medio de aplicaciones y gracias al modelo de entrenamiento pix2pix y un modelo preentrenado de reconocimiento de puntos de referencia facial , imitar gestos o movimiento facial en tiempo real a través de una cámara dado un video con un rostro en particular el cual realizará la imitación.
 
-La página original a la que se le atribuye este proyecto es la siguiente: https://github.com/datitran/face2face-demo
+La página original a la que se le atribuye este proyecto es la siguiente: https://github.com/datitran/face2face-demo .
 Ahi encontrarás las mismas indicaciones (en inglés) que adelante explicaré para desarrolar el proyecto tu mismo.
 
 ## ¿En qué consiste el modelo pix2pix?
 
 
-El modelo pix2pix que se utiliza es una implementación en tensorflow por Christopher Hesse [ver](https://github.com/affinelayer/pix2pix-tensorflow) del modelo pix2pix de Phillip Isola [ver](https://phillipi.github.io/pix2pix/)
+El modelo pix2pix que se utiliza es una implementación en tensorflow por Christopher Hesse [[ver](https://github.com/affinelayer/pix2pix-tensorflow)] del modelo pix2pix de Phillip Isola [[ver](https://phillipi.github.io/pix2pix/)]
 
 Pix2pix usa una red de confrontación generativa condicional (cGAN) para aprender un mapeo de una imagen de entrada a una imagen de salida. La red se compone de dos piezas principales: el Generador y el Discriminador. El generador aplica alguna transformación a la imagen de entrada para obtener la imagen de salida. El Discriminador compara la imagen de entrada con una imagen desconocida (ya sea una imagen objetivo del conjunto de datos o una imagen de salida del generador) e intenta adivinar si fue producida por el generador.
 Un ejemplo de un conjunto de datos sería que la imagen de entrada es una imagen en blanco y negro y la imagen objetivo es la versión en color de la imagen:
